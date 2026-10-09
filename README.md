@@ -1,140 +1,228 @@
 <div align="center">
-<br>
-
-🧩✨ OOP WRAPPER ✨🧩
-
-⚡ PYTHON • OBJECT-ORIENTED PROGRAMMING ⚡
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-💼 Employee Management System
-
-Turning Python OOP Concepts into Practical Code.
-<br>
-<br>
-🔹 CLASSES & OBJECTS　🔹 INHERITANCE　🔹 ENCAPSULATION　🔹 POLYMORPHISM
-<br>
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=1000&lines=%F0%9F%9A%80+OOP+WRAPPER+%7C+EMPLOYEE+MANAGEMENT+SYSTEM+%F0%9F%9A%80" alt="OOP Wrapper | Employee Management System" />
 </div>
 
-✨ About the Project
-
-OOP Wrapper is a Python console application that manages basic person and employee information. It uses classes and objects to represent a Person, an Employee, a Manager, and a Developer.
-
-The project is designed to demonstrate how OOP concepts can be used in a practical, menu-driven program.
-
-🚀 Features
-
-|Icon|Feature         |Description                                            |
-|:--:|----------------|-------------------------------------------------------|
-|👤   |Create Person   |Store a person’s name and age                          |
-|🧑‍💼   |Create Employee |Add employee details, ID, and salary                   |
-|🧑‍💻   |Create Manager  |Add a manager with a department                        |
-|💻   |Create Developer|Add a developer with a programming language            |
-|🔎   |View Details    |Display person, employee, manager, or developer details|
-|✏️   |Update Employee |Update name, age, salary, or employee ID               |
-|🗑️   |Remove Employee |Remove an employee using their ID                      |
-|🚪   |Exit            |Exit the application                                   |
-
-
-🧠 OOP Concepts Used
-
-• Classes and Objects: Person, Employee, Manager, and Developer model the entities in the application.
-• Inheritance: Manager and Developer inherit from Employee.
-• Encapsulation: Employee ID and salary are stored as private attributes and accessed through getter/setter methods.
-• Polymorphism / Method Overriding: Manager and Developer provide their own display() methods.
-• Constructor Overloading Pattern: Employee accepts different argument counts using *args.
-• super(): Child classes call the parent Employee constructor.
-• Built-in Type Checks: issubclass() and isinstance() are used to check class relationships and object types.
-
-
-<h2 align="center">🔄 OOP Wrapper - Application Flow</h2>
 <div align="center">
-<pre>
-          ┌───────────────┐
-          │     START     │
-          └───────┬───────┘
-                  ↓
-          ┌───────────────┐
-          │  Main Menu    │
-          └───────┬───────┘
-                  ↓
-          ┌────────────────────┐
-          │   Select Option    │
-          └─────────┬──────────┘
-                    ↓
-   ┌─────────────────────────────────┐
-   │ 1. Create Person                │
-   │ 2. Create Employee              │
-   │ 3. Create Manager               │
-   │ 4. Create Developer             │
-   │ 5. Show Details                 │
-   │ 6. Update Employee              │
-   │ 7. Remove Employee              │
-   └────────────────┬────────────────┘
-                    ↓
-          ┌───────────────────┐
-          │  Process Request  │
-          └─────────┬─────────┘
-                    ↓
-          ┌───────────────────┐
-          │  Return to Menu   │
-          └─────────┬─────────┘
-                    ↓
-          ┌───────────────────┐
-          │  8. Exit Program  │
-          └───────────────────┘
-</pre>
+
+
+### ✨ Object-Oriented Programming with Python ✨
+
+**A Python project demonstrating OOP concepts through an Employee Management System.**
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OOP](https://img.shields.io/badge/Object--Oriented-Programming-8E44AD?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-2E8B57?style=for-the-badge)
+
 </div>
 
+---
 
-🖥️ Sample Output
+## 🌟 About the Project
 
-The following is an example of the application’s console output using sample inputs:
+**OOP Wrapper** is a Python project designed to demonstrate the practical implementation of Object-Oriented Programming (OOP) concepts.
 
-```text
-Manager is subclass of Employee: True
-Developer is subclass of Employee: True
+The project uses different classes to represent people, employees, managers, and developers. It demonstrates how classes, inheritance, encapsulation, and polymorphism can be used to organize and manage employee information.
 
---- Python OOP Project: Employee Management System ---
-1. Create a Person
-2. Create an Employee
-3. Create a Manager
-4. Create a Developer
-5. Show details
-6. Update Employee
-7. Remove Employee
-8. Exit
+### 🎯 Project Objectives
 
-Enter your choice: 2
+- Understand the fundamentals of Object-Oriented Programming.
+- Implement classes, objects, and constructors.
+- Demonstrate inheritance and method overriding.
+- Protect employee information using encapsulation.
+- Perform employee management operations.
 
-Enter Name: Kavy
-Enter Age: 21
-Enter Employee ID: D101
-Enter Salary: 45000
+---
 
-Employee Details:
-Name: Kavy
-Age: 21
-Employee ID: D101
-Salary: 45000.0
-```
+## ✨ Key Features
 
-✏️ Example: Updating an Employee
+<table>
+<tr>
+<td width="50%">
 
-```text
-Enter Employee ID to update: D101
+### 👤 Class-Based Design
+Organizes information using classes and objects.
 
-1. Update Name
-2. Update Age
-3. Update Salary
-4. Update Employee ID
+</td>
+<td width="50%">
 
-Enter your choice: 3
-Enter New Salary: 56000
+### 🧬 Inheritance
+Reuses employee properties and methods.
 
-Employee updated successfully.
-```
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔐 Encapsulation
+Uses private attributes with getter and setter methods.
+
+</td>
+<td width="50%">
+
+### 🎭 Polymorphism
+Demonstrates method overriding through `display()`.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ✏️ Employee Updates
+Updates employee salary using an employee ID.
+
+</td>
+<td width="50%">
+
+### 🗑️ Employee Removal
+Removes an employee record using an employee ID.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ Class Structure
+
+| Class | Responsibility |
+|:---|:---|
+| 👤 `Person` | Stores basic information such as name and age. |
+| 💼 `Employee` | Extends Person and manages employee-specific information. |
+| 👨‍💼 `Manager` | Extends Employee with manager-specific information, such as department. |
+| 👩‍💻 `Developer` | Extends Employee with developer-specific information, such as programming language. |
+
+### 🔗 Class Relationships
+
+- `Employee` inherits from `Person`.
+- `Manager` inherits from `Employee`.
+- `Developer` inherits from `Employee`.
+
+This structure demonstrates code reusability and hierarchical relationships between classes.
+
+---
+
+## 🧠 OOP Concepts Implemented
+
+<details>
+<summary><b>📦 1. Classes and Objects</b></summary>
+
+<br>
+
+Classes define the structure and behaviour of objects. Objects represent individual instances of these classes.
+
+**Used in:** `Person`, `Employee`, `Manager`, and `Developer`.
+
+</details>
+
+<details>
+<summary><b>🔐 2. Encapsulation</b></summary>
+
+<br>
+
+Encapsulation protects data by controlling access to attributes.
+
+**Implemented using:**
+- Private attributes for employee ID and salary.
+- Getter methods to retrieve values.
+- Setter methods to update values.
+
+</details>
+
+<details>
+<summary><b>🧬 3. Inheritance</b></summary>
+
+<br>
+
+Inheritance allows a class to reuse properties and methods from another class.
+
+**Implemented using:**
+- `Employee` inheriting from `Person`.
+- `Manager` inheriting from `Employee`.
+- `Developer` inheriting from `Employee`.
+
+</details>
+
+<details>
+<summary><b>🎭 4. Polymorphism</b></summary>
+
+<br>
+
+Polymorphism allows methods with the same name to behave differently in different classes.
+
+**Implemented using:** Method overriding with the `display()` method.
+
+</details>
+
+<details>
+<summary><b>🏗️ 5. Constructors and super()</b></summary>
+
+<br>
+
+Constructors initialize object attributes. The `super()` function is used to access parent-class functionality.
+
+The project also demonstrates a constructor overloading pattern using `*args`, if implemented in the constructor.
+
+</details>
+
+<details>
+<summary><b>🔍 6. isinstance() and issubclass()</b></summary>
+
+<br>
+
+- `isinstance()` checks whether an object belongs to a class or its subclass.
+- `issubclass()` checks whether one class inherits from another class.
+
+</details>
+
+---
+
+## ⚙️ Project Working
+
+The project follows an organized process to create and manage employee objects.
+
+| Step | Operation | Description |
+|:---:|:---|:---|
+| 01 | 🏁 Initialization | Start the program and prepare the required objects. |
+| 02 | 👤 Object Creation | Create objects from the defined classes. |
+| 03 | 📝 Attribute Initialization | Initialize personal and employee information. |
+| 04 | 🖥️ Display Details | Display information using class methods. |
+| 05 | ✏️ Update Salary | Update an employee's salary using their ID. |
+| 06 | 🗑️ Remove Employee | Remove an employee record using their ID. |
+| 07 | 🚪 Exit | Close resources and terminate the program. |
+
+---
+
+## 🛠️ Technologies Used
+
+<div align="center">
+
+| Technology | Purpose |
+|:---|:---|
+| 🐍 Python | Main programming language |
+| 🧩 OOP | Classes, objects, inheritance, and polymorphism |
+| 🗂️ GitHub | Project hosting and documentation |
+
+</div>
+
+---
+
+
+## 🎓 Learning Outcomes
+
+Through this project, I practised:
+
+- Designing classes and creating objects.
+- Understanding parent-child class relationships.
+- Applying encapsulation to protect attributes.
+- Implementing method overriding.
+- Using constructors and `super()`.
+- Managing employee information through Python code.
+
+---
+
+
 <h2 align="center">🌈 OOP Wrapper – Complete Application Flow</h2>
 <h3 align="center">Employee Management System</h3>
 
@@ -359,3 +447,37 @@ flowchart TD
     class Q,R,S,T,L,M methods
     class Y,Z,AA,AB,AC operations
 ```
+<h1 align="center">📸 OUTPUT</h1>
+
+<p align="center">
+          
+<img width="1878" height="7807" alt="op 5 ss" src="https://github.com/user-attachments/assets/80d97bc3-4e02-4a2d-ace8-70d4b29fe7f3" />
+
+
+ </p>
+ 
+<h1 align="center">📸 video demo</h1>
+
+<p align="center">
+
+
+https://github.com/user-attachments/assets/cdc5fd3c-ed62-435c-a383-d2d8e685a618
+
+</p>
+
+
+
+## 💜 Thank You for Visiting!
+
+**OOP Wrapper — Learning Python Through Practical Implementation**
+
+*Built with Python 🐍 and a passion for learning.*
+<h2 align="center">
+  ✨ Created by Khushi Chaudhary ✨
+</h2>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Author+%3A+Khushi+Chaudhary;Python+Developer;OOP+wrapper+Project" alt="Typing SVG" />
+</p>
+</div>
+
+
